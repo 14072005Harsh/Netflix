@@ -1,0 +1,419 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.main
+{
+    background-image: url(./image/banner.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.box
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background: black;
+}
+.nav
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width:80vw;
+    margin-left:10vw;
+    margin-top: 20px;
+}
+.logo, .list
+{
+    position: relative;
+    z-index: 10;
+}
+.list ul
+{
+    display: flex;
+}
+.sign
+{
+    background-color:#e50914;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.sign a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+li 
+{
+    margin: 0px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.sign:hover
+{
+    background-color: #c11119;
+}
+.lang select
+{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding:5px 10px;
+}
+.info
+{
+    position: absolute;
+    top: 45%;
+    z-index: 10;
+    width: 100%;
+    color: white;
+}
+.info h1
+{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0px;
+}
+.info h2
+{
+    /* font-size: 34px; */
+    text-align: center;
+    margin: 10px 0px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.info h3 
+{
+    text-align: center;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.info h4 
+{
+    text-align: center;
+}
+.info input 
+{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 14px;
+    font-size: 15px;
+    width: 30%;
+}
+::placeholder
+{
+    color: white;
+}
+.info h5 
+{
+    text-align: center;
+    font-weight: 500;
+}
+.info button
+{
+    background-color:#e50914;
+    border: none;
+    padding: 10px 30px;
+    /* font-size: 30px; */
+    border-radius: 5px;
+    margin: 10px 0px;
+    font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.info button:hover
+{
+    background-color: #c11119;
+}
+.info a
+{
+    color: white;
+    text-decoration: none;
+}
+.gap
+{
+    width: 100%;
+    height: 8px;
+    background-color: #313131;
+}
+main, footer
+{
+    background-color: #000000;
+}
+.tv-sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+.TV h1
+{
+   font-size: 55px;
+   font-weight: 900px;
+}
+.TV p
+{
+    font-size: 25px;
+    font-weight: 400;
+}
+.tv-img
+{
+    position: relative;
+}
+.tv-img img
+{
+    z-index: 10;
+    position: relative;
+}
+.tv-img video
+{
+    position: absolute;
+    left: 79px;
+    top: 78px;
+    overflow: hidden;
+}
+.rajma video
+{
+    position: absolute;
+    left:92px;
+    top:46px ;
+}
+.question
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 40px 0px;
+}
+.netflix-info p
+{
+   color: white;
+   font-size: 25px;
+   font-weight: 450;
+}
+.netflix-head p
+{
+    font-size: 25px;
+    font-weight: 450;
+    padding: 0;
+    margin-top: 5px;
+    color:white;
+}
+.accordion-button .collapsed
+{
+    background: white;
+}
+  
+.accordion-button.collapsed::after
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-button:not(.collapsed) 
+{
+    background-color: transparent !important;
+    color: inherit;
+}
+button.accordion-button:focus
+{
+    box-shadow: inherit;
+}
+.what 
+{
+    transition: 1s ;
+}
+.what:hover
+{
+    background-color:#e50914;
+}
+.ready h5 
+{
+    text-align: center;
+    margin: 40px 0px;
+}
+.info1 h4 
+{
+    text-align: center;
+}
+.info1 input 
+{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 14px;
+    font-size: 15px;
+    width: 30%;
+}
+::placeholder
+{
+    color: white;
+}
+.info1 button
+{
+    background-color:#e50914;
+    border: none;
+    padding: 10px 30px;
+    /* font-size: 30px; */
+    border-radius: 5px;
+    margin: 10px 0px;
+    font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.info1 button:hover
+{
+    background-color: #c11119;
+}
+.info1 a
+{
+    color: white;
+    text-decoration: none;
+}
+.call
+{
+    margin: 40px 30px;
+}
+.call a
+{
+    color: rgba(255,255,255,0.7);
+}
+.last a
+{
+   color: rgba(255,255,255,0.7);
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.last ul
+{
+    list-style: none;
+}
+.last li
+{
+    margin: 20px 0px;
+    color: rgba(255,255,255,0.7);
+   font-size: 15px;
+   font-weight: 400;
+}
+.last 
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+@media screen and (max-width:1030px){
+    .main
+    {
+        height: 100vh;
+    }
+    .logo img 
+    {
+        width: 89px;
+        margin-top: 14px;
+    }
+    .nav
+    {
+        width: 95vw;
+        margin-left:15px;
+    }
+    li 
+    {
+        margin:5px;
+    }
+    .lang select
+    {
+        padding: 5px 5px;
+    }
+    .sign 
+    {
+        padding: 5px;
+    }
+    .info
+{
+    position: absolute;
+    top: 25%;
+    z-index: 10;
+    width: 100%;
+}
+.info h1 
+{
+    font-size: 30px;
+}
+.info h2 
+{
+     font-size: 20px;
+}
+.info button 
+{
+     font-size: 25px;
+}
+.TV h1
+{
+   font-size: 40px;
+   font-weight: 600px;
+   text-align: center;
+}
+.TV p
+{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.tv-img img 
+{
+    width:100% ;
+}
+.tv-img video 
+{
+    width:70%;
+    overflow: auto;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.rajma video 
+{
+    width: 58%;
+    position: absolute;
+    left:21%;
+    top: 12%;
+}
+.tv-sec h1 
+{
+    padding-top: 20px;
+}
+.info input 
+{
+    width:60%;
+}
+.info1 input 
+{
+    width: 60%;
+}
+.netflix-info p
+{
+    font-size: 20px;
+    font-weight: 450;
+}
+}
+@media  screen and (max-width:600px) {
+    .last 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+}
